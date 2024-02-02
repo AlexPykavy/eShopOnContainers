@@ -207,7 +207,7 @@ public class Startup
     private void RegisterAppInsights(IServiceCollection services)
     {
         services.AddApplicationInsightsTelemetry(Configuration);
-        services.AddApplicationInsightsKubernetesEnricher();
+        // services.AddApplicationInsightsKubernetesEnricher();
     }
 
     private void ConfigureAuthService(IServiceCollection services)

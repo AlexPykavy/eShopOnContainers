@@ -3,8 +3,8 @@ clusterName: eshop-aks
 pathBase: /webmvc
 
 image:
-  repository: eshop/webmvc
-  tag: latest
+  repository: europe-docker.pkg.dev/protean-smile-405007/eu.gcr.io/webmvc
+  tag: linux-latest
   pullPolicy: IfNotPresent
 
 service:

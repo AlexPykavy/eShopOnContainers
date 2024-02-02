@@ -3,8 +3,8 @@ clusterName: eshop-aks
 pathBase: /
 
 image:
-  repository: eshop/webspa
-  tag: latest
+  repository: europe-docker.pkg.dev/protean-smile-405007/eu.gcr.io/webspa
+  tag: linux-latest
   pullPolicy: IfNotPresent
 
 service:

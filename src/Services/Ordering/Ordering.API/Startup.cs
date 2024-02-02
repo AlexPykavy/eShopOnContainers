@@ -124,7 +124,7 @@ static class CustomExtensionsMethods
     public static IServiceCollection AddApplicationInsights(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddApplicationInsightsTelemetry(configuration);
-        services.AddApplicationInsightsKubernetesEnricher();
+        // services.AddApplicationInsightsKubernetesEnricher();
 
         return services;
     }

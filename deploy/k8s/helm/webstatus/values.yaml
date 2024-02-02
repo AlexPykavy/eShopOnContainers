@@ -3,8 +3,8 @@ clusterName: eshop-aks
 pathBase: /webstatus
 
 image:
-  repository: eshop/webstatus
-  tag: latest
+  repository: europe-docker.pkg.dev/protean-smile-405007/eu.gcr.io/webstatus
+  tag: linux-latest
   pullPolicy: IfNotPresent
 
 service:

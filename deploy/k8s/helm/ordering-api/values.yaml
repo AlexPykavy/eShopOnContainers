@@ -3,8 +3,8 @@ clusterName: eshop-aks
 pathBase: /ordering-api
 
 image:
-  repository: eshop/ordering.api
-  tag: latest
+  repository: europe-docker.pkg.dev/protean-smile-405007/eu.gcr.io/ordering.api
+  tag: linux-latest
   pullPolicy: IfNotPresent
 
 service:

@@ -83,7 +83,7 @@ static class ServiceCollectionExtensions
     public static IServiceCollection AddAppInsight(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddApplicationInsightsTelemetry(configuration);
-        services.AddApplicationInsightsKubernetesEnricher();
+        // services.AddApplicationInsightsKubernetesEnricher();
 
         return services;
     }
